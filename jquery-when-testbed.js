@@ -3,7 +3,7 @@ $( document ).ready(function() {
     testWhenThen();
 });
 testWhenThen = function(){
-    var url = 'http://requestb.in/ukxas0uk'
+    var url = 'https://requestb.in/ukxas0uk'
     arrJqxhr = $.get(url)
                     .done(function(objIndicators, textStatus, jqXHR) {
                         $.each( processedObjIndicators, function( key, value ) {
