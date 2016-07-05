@@ -2,7 +2,7 @@ $( document ).ready(function() {
     console.log('V0');
     testWhenThen();
 });
-testWhenThen(){
+testWhenThen = function(){
     var url = 'http://requestb.in/ukxas0uk'
     arrJqxhr = $.get(url)
                     .done(function(objIndicators, textStatus, jqXHR) {
